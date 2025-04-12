@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Diagnosis Tool</title>
+    <link rel="stylesheet" href="diagnosis.css">
+  </head>
+  <body>
+    <h1>Diagnosis</h1>
+    <form>
+      <label for="file_type">select: file type</label>
+      <select id="file_type" name="file_type">
+        <option value="patient_image">Patient Image</option>
+        <option value="doctor_report">Doctor Report</option>
+        <option value="x_ray_etc">X-ray etc.</option>
+      </select>
+      <br>
+      <label for="file">Attach File</label>
+      <input type="file" id="file" name="file">
+      <br>
+      <label for="condition">Describe your condition</label>
+      <textarea id="condition" name="condition"></textarea>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
